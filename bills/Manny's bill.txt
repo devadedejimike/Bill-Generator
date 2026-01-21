@@ -1,0 +1,5 @@
+Bill Breakdown 
+Carrot:                   ......5.99 
+Pie:                      ......9.5 
+tip:                      ......2.11
+total:                    ......17.60

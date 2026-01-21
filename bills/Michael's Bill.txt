@@ -1,0 +1,6 @@
+Bill Breakdown 
+Shirt:                    ......20.99 
+Banana:                   ......6.25 
+mango:                    ......5.99 
+tip:                      ......5.00
+total:                    ......38.23
