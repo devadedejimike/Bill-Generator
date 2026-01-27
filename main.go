@@ -28,7 +28,7 @@ func createBill() bill {
 func promptOptions(b bill) {
 	reader := bufio.NewReader(os.Stdin)
 
-	opt, _ := getInput("Choose option (a - add an item, s - save bill, t - add tip)", reader)
+	opt, _ := getInput("Choose option (a - add an item, l - list items, s - save bill, t - add tip)", reader)
 	// Switch Statement
 	switch opt {
 	case "a":
@@ -54,6 +54,8 @@ func promptOptions(b bill) {
 		b.updateTip(t)
 		fmt.Println("Tip added", t)
 		promptOptions(b)
+	case "l":
+		fmt.Println(b.format())
 	case "s":
 		b.save()
 		fmt.Println("you saved the file", b.name)
